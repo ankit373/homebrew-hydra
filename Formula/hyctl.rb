@@ -2,28 +2,28 @@
 class Hyctl < Formula
   desc "Multi-model AI orchestration, one Cortex, many Heads"
   homepage "https://hydra.uvansa.com"
-  version "1.6.1"
+  version "1.7.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ankit373/hydra/releases/download/v1.6.1/hydra_1.6.1_darwin_arm64.tar.gz"
-      sha256 "955a15788ee01f18f2ea8433442f6b0097909b044b2627ae13350dc41337c4be"
+      url "https://github.com/ankit373/hydra/releases/download/v1.7.0/hydra_1.7.0_darwin_arm64.tar.gz"
+      sha256 "748f3c2cb584a5617ef1f5ecd5166de041906d82e08554aaed9f6fd18b0b5f1c"
     end
     on_intel do
-      url "https://github.com/ankit373/hydra/releases/download/v1.6.1/hydra_1.6.1_darwin_amd64.tar.gz"
-      sha256 "4f10a9e0d54c1d795dfdae2cacbf72706d79687ef5593dc1d0344f8c4857686d"
+      url "https://github.com/ankit373/hydra/releases/download/v1.7.0/hydra_1.7.0_darwin_amd64.tar.gz"
+      sha256 "0d2c90b444a6a1fa6f4c97e9fcb5f25c0b2525b9ed33aafd74bff712ae45fcd6"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ankit373/hydra/releases/download/v1.6.1/hydra_1.6.1_linux_arm64.tar.gz"
-      sha256 "b2424de5e6c915ad3da62b7a91836e465b3d0f930886d88a59aebe0cb63075ae"
+      url "https://github.com/ankit373/hydra/releases/download/v1.7.0/hydra_1.7.0_linux_arm64.tar.gz"
+      sha256 "539a579816a2ba67678accc06076896ce3896de39f23a18bd835f2dd235618ad"
     end
     on_intel do
-      url "https://github.com/ankit373/hydra/releases/download/v1.6.1/hydra_1.6.1_linux_amd64.tar.gz"
-      sha256 "e5b0a7301124ce04286825130c54cb10826eae0084049752cc1ce5859bb462c4"
+      url "https://github.com/ankit373/hydra/releases/download/v1.7.0/hydra_1.7.0_linux_amd64.tar.gz"
+      sha256 "2547812c337c44ea37af449863c876569562cfd557b9f7731b45428430a4c817"
     end
   end
 
